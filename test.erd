@@ -4,8 +4,8 @@
   "settings": {
     "width": 2000,
     "height": 2000,
-    "scrollTop": -0.0002,
-    "scrollLeft": 0,
+    "scrollTop": 0,
+    "scrollLeft": -0.0001,
     "zoomLevel": 1,
     "show": 431,
     "database": 4,
@@ -35,7 +35,8 @@
       "div7xe5y76XqCTdtYfASe",
       "6loHCk3uZR84GzQ_p-G7a",
       "ICNdHSRiVz5e60wL6ZDRe",
-      "ZPkZa5uxH9OrraeZudK52"
+      "ZPkZa5uxH9OrraeZudK52",
+      "b02EiMRBBKAByJyWMjOin"
     ],
     "relationshipIds": [
       "FGMFhZTrBrN42F794_8PV",
@@ -224,6 +225,31 @@
         "meta": {
           "updateAt": 1758768098464,
           "createAt": 1758681555519
+        }
+      },
+      "b02EiMRBBKAByJyWMjOin": {
+        "id": "b02EiMRBBKAByJyWMjOin",
+        "name": "users",
+        "comment": "사용자",
+        "columnIds": [
+          "L01WniVwVfKW80kMTrYCV",
+          "6Ju3gHei8UC3JfDxJfY0m"
+        ],
+        "seqColumnIds": [
+          "L01WniVwVfKW80kMTrYCV",
+          "6Ju3gHei8UC3JfDxJfY0m"
+        ],
+        "ui": {
+          "x": 49.6668,
+          "y": 491.9994,
+          "zIndex": 243,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1758850889363,
+          "createAt": 1758850010405
         }
       }
     },
@@ -826,6 +852,46 @@
         "meta": {
           "updateAt": 1758681798632,
           "createAt": 1758681753567
+        }
+      },
+      "L01WniVwVfKW80kMTrYCV": {
+        "id": "L01WniVwVfKW80kMTrYCV",
+        "tableId": "b02EiMRBBKAByJyWMjOin",
+        "name": "user_id",
+        "comment": "회원아이디",
+        "dataType": "VARCHAR(50)",
+        "default": "",
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 62,
+          "widthDataType": 75,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1758850600819,
+          "createAt": 1758850019796
+        }
+      },
+      "6Ju3gHei8UC3JfDxJfY0m": {
+        "id": "6Ju3gHei8UC3JfDxJfY0m",
+        "tableId": "b02EiMRBBKAByJyWMjOin",
+        "name": "user_name",
+        "comment": "회원이름",
+        "dataType": "VARCHAR(200)",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 81,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1758850086193,
+          "createAt": 1758850056493
         }
       }
     },
